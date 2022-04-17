@@ -8,29 +8,42 @@
     <title>Document</title>
 </head>
 <body>
-    <h2 id="clock">00:00:00</h2>
-    <form id="login-form" class="hidden">
-     <input required maxlength="15" type="text" placeholder="What is your name?"/>
-     <input type="submit" value="log In"/>
-    </form>
-    <hi id="greeting" class="hidden"></hi>
-    <form id="todo-form">
-        <input type="text" placeholder="Write a To Do and Press">
-    </form>
-    <ul id="todo-list"></ul>
-    <div id="quote">
-        <span></span>
-        <span></span>
-    </div>
+  <div class="background-img">  
     <div id="weather">
         <span></span>
         <span></span>
     </div>
+
+    <div class="time">
+        <h2 id="clock">00:00:00</h2>
+    </div>
+
+    <div class="hello">
+        <form id="login-form" class="hidden">
+        <input required maxlength="15" type="text" placeholder="What is your name?"/>
+        <input type="submit" value="log In"/>
+        </form>
+        <hi id="greeting" class="hidden"></hi>
+    </div>
+
+    <div class="todo-list">
+        <form id="todo-form">
+            <input type="text" placeholder="What is your main focus today?">
+        </form>
+        <ul id="todo-list"></ul>
+    </div> 
+
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+  
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
-    <script src="js/weather.js"></script>
+    <script src="js/weather.js"></script>   
+  </div>  
 </body>
 </html>
