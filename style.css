@@ -9,7 +9,14 @@
 }
 
 body {
-  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Permanent Marker", cursive;
+  color: white;
+  border: none;
+  outline: none;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -19,4 +26,13 @@ img {
   height: 100%;
   object-fit: cover;
   top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+
+input {
+  border: none;
+  background: transparent;
+  color: white;
 }

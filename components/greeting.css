@@ -1,0 +1,6 @@
+.hello {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 65px;
+}

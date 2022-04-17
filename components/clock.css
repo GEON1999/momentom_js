@@ -1,0 +1,7 @@
+.time {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  font-weight: 400;
+  font-size: 170px;
+}

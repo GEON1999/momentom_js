@@ -1,12 +1,14 @@
 #weather {
   width: 100%;
   height: 50px;
-  background-color: aqua;
   display: flex;
-  justify-content: flex-end;
+  flex-direction: row-reverse;
   z-index: 2;
+  margin-top: 10px;
+  padding-right: 100px;
 }
 
 #weather span:first-child {
   margin-right: 10px;
+  margin-left: 5px;
 }
