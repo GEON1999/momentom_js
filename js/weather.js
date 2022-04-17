@@ -10,9 +10,8 @@ function onGeoOk(position) {
     .then(data => {
         const weather = document.querySelector("#weather span:last-child");
         const temp = document.querySelector("#weather span:first-child");
-        temp.innerText = `${data.main.temp}°`    
-        weather.innerText = data.weather[0].main ;
-      
+        temp.innerText = ` ${data.main.temp}°`    
+        weather.innerText = `${data.weather[0].main} - `; 
     });
 
 }

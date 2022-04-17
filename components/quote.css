@@ -1,0 +1,9 @@
+#quote {
+  position: absolute;
+  bottom: 30px;
+  font-size: 20px;
+}
+.quote-box {
+  display: flex;
+  justify-content: center;
+}
