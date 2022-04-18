@@ -50,3 +50,8 @@ input::placeholder {
 .logout button:hover {
   font-size: 25px;
 }
+
+input:focus {
+  border-bottom: 5px solid white;
+  border-radius: 5px;
+}

@@ -39,6 +39,7 @@ input {
   font-family: "Permanent Marker", cursive;
   border-bottom: 2px solid white;
   border-radius: 3px;
+  transition: 0.3s ease-in-out;
 }
 
 button {
