@@ -13,6 +13,20 @@ bgImage.src = `img/${chosenImage}`;
 document.body.appendChild(bgImage);
 
 
+let userName = "jenny";
+
+function sayHello(){
+  let userName = "maria";
+  callYourName();
+}
+
+function callYourName(){
+  console.log(`Hello ${userName});
+}
+
+sayHello();
+
+
 /*bgImage.backgroundSize = "cover";
 bgImage.backgroundPosition = "center";
 bgImage.backgroundRepeat = "no-repeat"
