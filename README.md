@@ -47,11 +47,12 @@
 ## Built with
 
 > Front-end
-
+- HTML
+- CSS
 <br />
 
 > Back-end
-
+- Javascript
 <br />
 
 > Deploy
