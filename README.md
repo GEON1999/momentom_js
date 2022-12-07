@@ -1,9 +1,9 @@
 <div align="center">
-  <a href="https://new-videoplayer-nodejs.herokuapp.com">
-    <img height="800" src="./preview/3.png" />
+
+  <img height="800" src="./preview/3.png" />
     <br /><br />
-    <a display="block" href="https://geon1999.github.io/momentom_js">모멘텀 클론</a>
-  </a>
+  <a display="block" href="https://geon1999.github.io/momentom_js">모멘텀 클론</a>
+
 </div>
 
 </br></br>
